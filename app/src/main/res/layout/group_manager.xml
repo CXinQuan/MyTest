@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="url"
+            type="String" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="#fbfbfd"
+                android:paddingBottom="9dp">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="群管理"
+                    android:textColor="#020002"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_sure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:text="确定"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv_manager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="15dp"
+                    android:text="群管理"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_group_manager"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        app:layoutManager="LinearLayoutManager" />
+
+                    <ImageView
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:src="#ff0000" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_not_allow_uncertified_join"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="12dp"
+                    android:maxLines="1"
+                    android:text="不允许未认证用户加入"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_not_allow_uncertified_join"
+                    android:layout_below="@+id/tv_not_allow_uncertified_join"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="12dp"
+                    android:maxLines="1"
+                    android:text="(是否允许校狐未认证用户加入本群，默认关闭)"
+                    android:textColor="#b1b1b1"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginTop="4dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f8f8f8"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="8dp"
+                android:text="加群方式"
+                android:textColor="#848484"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="6dp" />
+
+                <TextView
+                    android:id="@+id/tv_all_join"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="允许任何人加入"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eeeeee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_need_anwser_que"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="15dp"
+                    android:maxLines="1"
+                    android:text="需要回答问题"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_need_anwser_que"
+                    android:layout_below="@+id/tv_need_anwser_que"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="12dp"
+                    android:maxLines="1"
+                    android:text="(回答正确时无需审核可直接入群)"
+                    android:textColor="#b1b1b1"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="15dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="问题一"
+                    android:textColor="#747474"
+                    android:textSize="13sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/group_manager_question_bg"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#747474"
+                        android:textSize="13sp"
+                        tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="10dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="31dp"
+                    android:text="答案"
+                    android:textColor="#747474"
+                    android:textSize="13sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/group_manager_question_bg"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#747474"
+                        android:textSize="13sp"
+                        tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#f8f8f8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="9dp"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="问题一"
+                        android:textColor="#747474"
+                        android:textSize="13sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginRight="12dp"
+                        android:background="@drawable/group_manager_question_bg"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="8dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#747474"
+                            android:textSize="13sp"
+                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="31dp"
+                        android:text="答案"
+                        android:textColor="#747474"
+                        android:textSize="13sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="12dp"
+                        android:background="@drawable/group_manager_question_bg"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="8dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#747474"
+                            android:textSize="13sp"
+                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="9dp"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="6dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="问题一"
+                        android:textColor="#747474"
+                        android:textSize="13sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginRight="12dp"
+                        android:background="@drawable/group_manager_question_bg"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="8dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#747474"
+                            android:textSize="13sp"
+                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="31dp"
+                        android:text="答案"
+                        android:textColor="#747474"
+                        android:textSize="13sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="12dp"
+                        android:background="@drawable/group_manager_question_bg"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="8dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#747474"
+                            android:textSize="13sp"
+                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

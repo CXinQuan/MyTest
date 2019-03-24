@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xyb.schoolhox.myview.MyQuestionItemView
+        android:id="@+id/item_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.xyb.schoolhox.myview.MyQuestionItemView
+        android:id="@+id/item_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.xyb.schoolhox.myview.MyQuestionItemView
+        android:id="@+id/item_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_add_que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right"
+        android:paddingBottom="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:text="增加问题"
+        android:textColor="#9cbaff"
+        android:textSize="14sp" />
+</LinearLayout>

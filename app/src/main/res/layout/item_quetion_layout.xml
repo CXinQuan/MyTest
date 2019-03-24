@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_cancle"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <RadioButton
+            android:id="@+id/rb_eslect"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/my_radio_button_bg"
+            android:button="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="问题一"
+            android:textColor="#747474"
+            android:textSize="13sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/group_manager_question_bg"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/et_que"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#747474"
+                android:textSize="13sp"
+                tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="31dp"
+            android:text="答案"
+            android:textColor="#747474"
+            android:textSize="13sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/group_manager_question_bg"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/et_ans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#747474"
+                android:textSize="13sp"
+                tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
