@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.RadioButton;
 
 import com.xyb.schoolhox.R;
 import com.xyb.schoolhox.bean.Question;
@@ -23,9 +22,9 @@ public class MyQuestionItemView extends FrameLayout {
     private ImageView ivCancle;
     private EditText etAns;
     private EditText etQue;
-    private RadioButton rbSelect;
+    private ImageView rbSelect;
     Question question;
-    private boolean isSelect;
+    private boolean isSelect = false;
 
     public MyQuestionItemView(@NonNull Context context) {
         this(context, null);
@@ -46,7 +45,30 @@ public class MyQuestionItemView extends FrameLayout {
         ivCancle = (ImageView) view.findViewById(R.id.iv_cancle);
         etAns = (EditText) view.findViewById(R.id.et_ans);
         etQue = (EditText) view.findViewById(R.id.et_que);
-        rbSelect = (RadioButton) view.findViewById(R.id.rb_eslect);
+        rbSelect = (ImageView) view.findViewById(R.id.rb_eslect);
+
+//        rbSelect.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                Log.d("0000","000");
+//               System.out.println(isChecked);
+//            }
+//        });
+//        rbSelect.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                rbSelect.setChecked(!rbSelect.isChecked());
+//
+//            }
+//        });
+        rbSelect.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               isSelect= !isSelect;
+                setSelect(isSelect);
+            }
+        });
+
         question = new Question();
         ivCancle.setOnClickListener(new OnClickListener() {
             @Override
@@ -60,6 +82,7 @@ public class MyQuestionItemView extends FrameLayout {
         if (question != null) {
             this.question = question;
             setCanSee(true);
+            setSelect(true);
             etQue.setText(question.getQues());
             etAns.setText(question.getAns());
         }
@@ -72,17 +95,24 @@ public class MyQuestionItemView extends FrameLayout {
     }
 
     public void setSelect(boolean select) {
-        rbSelect.setChecked(select);
+        //   rbSelect.setChecked(select);
+        this.isSelect = select;
+        if (isSelect) {
+            rbSelect.setImageResource(R.drawable.select_check);
+        } else {
+            rbSelect.setImageResource(R.drawable.select);
+        }
     }
 
     public boolean isSelect() {
-        return rbSelect.isChecked();
+        //   return rbSelect.isChecked();
+        return isSelect;
     }
 
-    public boolean isVisivity(){
-
-        return this.isVisivity();
+    public boolean isVisivity() {
+        return this.getVisibility() == View.VISIBLE;
     }
+
     /**
      * 设置整体是否可见
      *

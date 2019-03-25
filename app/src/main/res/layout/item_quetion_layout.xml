@@ -25,17 +25,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff">
-
-        <RadioButton
+        <!--RadioButton-->
+        <ImageView
             android:id="@+id/rb_eslect"
             android:layout_width="14dp"
             android:layout_height="14dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="6dp"
-            android:background="@drawable/my_radio_button_bg"
-            android:button="@null" />
-
+       />
+        <!--android:background="@drawable/my_radio_button_bg"-->
+        <!--android:button="@null"-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

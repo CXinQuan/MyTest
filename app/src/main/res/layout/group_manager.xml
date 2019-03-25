@@ -214,6 +214,305 @@
                     android:layout_marginTop="15dp" />
             </RelativeLayout>
 
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="14dp"-->
+            <!--android:layout_height="14dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginRight="6dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="问题一"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="11dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="31dp"-->
+            <!--android:text="答案"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:background="#f8f8f8" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="10dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="9dp"/>-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="14dp"-->
+            <!--android:layout_height="14dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginRight="6dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="问题一"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="11dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="31dp"-->
+            <!--android:text="答案"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="10dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="9dp"/>-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="14dp"-->
+            <!--android:layout_height="14dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginRight="6dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="问题一"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="11dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="31dp"-->
+            <!--android:text="答案"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp" />-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:background="@drawable/group_manager_question_bg"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@null"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#747474"-->
+            <!--android:textSize="13sp"-->
+            <!--tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />-->
+            <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <com.xyb.schoolhox.myview.MyQuestionView
+                android:id="@+id/myquestionview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#f8f8f8" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -223,284 +522,95 @@
                     android:layout_width="14dp"
                     android:layout_height="14dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginRight="6dp" />
+                    android:layout_marginLeft="12dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:text="问题一"
-                    android:textColor="#747474"
-                    android:textSize="13sp" />
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="11dp"
-                    android:layout_marginRight="12dp"
-                    android:background="@drawable/group_manager_question_bg"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="8dp">
-
-                    <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@null"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:textColor="#747474"
-                        android:textSize="13sp"
-                        tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                </FrameLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:paddingBottom="10dp"
-                android:paddingTop="8dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="31dp"
-                    android:text="答案"
-                    android:textColor="#747474"
-                    android:textSize="13sp" />
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="12dp"
-                    android:background="@drawable/group_manager_question_bg"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="8dp">
-
-                    <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@null"
-                        android:maxLines="1"
-                        android:singleLine="true"
-                        android:textColor="#747474"
-                        android:textSize="13sp"
-                        tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                </FrameLayout>
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="付费入群"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="16dp"
+                    android:text="付费："
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/group_manager_question_bg"
+                    android:gravity="center"
+                    android:hint="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="59dp"
+                    android:text="狐币"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="12dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="19dp"
+                android:paddingTop="12dp"
+                android:text="加入校狐群用户需支付指定数量狐币才可以入群噢~无需经过群主/管理员审核，所收入费用将转入校狐群主账户余额"
+                android:textColor="#b1b1b1"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
                 android:background="#f8f8f8" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:orientation="vertical">
+                android:background="#ffffff">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="9dp"/>
-
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#ffffff">
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:text="群转让"
+                    android:textColor="#020002"
+                    android:textSize="14sp" />
 
-                    <ImageView
-                        android:layout_width="14dp"
-                        android:layout_height="14dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="6dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:text="问题一"
-                        android:textColor="#747474"
-                        android:textSize="13sp" />
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="11dp"
-                        android:layout_marginRight="12dp"
-                        android:background="@drawable/group_manager_question_bg"
-                        android:paddingBottom="8dp"
-                        android:paddingLeft="10dp"
-                        android:paddingTop="8dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@null"
-                            android:maxLines="1"
-                            android:singleLine="true"
-                            android:textColor="#747474"
-                            android:textSize="13sp"
-                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                    </FrameLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="31dp"
-                        android:text="答案"
-                        android:textColor="#747474"
-                        android:textSize="13sp" />
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="12dp"
-                        android:background="@drawable/group_manager_question_bg"
-                        android:paddingBottom="8dp"
-                        android:paddingLeft="10dp"
-                        android:paddingTop="8dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@null"
-                            android:maxLines="1"
-                            android:singleLine="true"
-                            android:textColor="#747474"
-                            android:textSize="13sp"
-                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                    </FrameLayout>
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="9dp"/>
-
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff">
-
-                    <ImageView
-                        android:layout_width="14dp"
-                        android:layout_height="14dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="6dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:text="问题一"
-                        android:textColor="#747474"
-                        android:textSize="13sp" />
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="11dp"
-                        android:layout_marginRight="12dp"
-                        android:background="@drawable/group_manager_question_bg"
-                        android:paddingBottom="8dp"
-                        android:paddingLeft="10dp"
-                        android:paddingTop="8dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@null"
-                            android:maxLines="1"
-                            android:singleLine="true"
-                            android:textColor="#747474"
-                            android:textSize="13sp"
-                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                    </FrameLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="8dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="31dp"
-                        android:text="答案"
-                        android:textColor="#747474"
-                        android:textSize="13sp" />
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="12dp"
-                        android:background="@drawable/group_manager_question_bg"
-                        android:paddingBottom="8dp"
-                        android:paddingLeft="10dp"
-                        android:paddingTop="8dp">
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@null"
-                            android:maxLines="1"
-                            android:singleLine="true"
-                            android:textColor="#747474"
-                            android:textSize="13sp"
-                            tools:text="哈哈哈哈哈哈哈哈哈哈或或或或或或哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或" />
-                    </FrameLayout>
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="12dp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
