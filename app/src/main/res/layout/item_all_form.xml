@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="onClickListener"
+            type="android.view.View.OnClickListener" />
+
+
+        <variable
+            name="isShowBotton"
+            type="Boolean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_item_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{onClickListener.onClick}">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#efefef" />
+
+            <ImageView
+                android:id="@+id/iv_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back_button" />
+
+            <TextView
+                android:id="@+id/tv_form_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/iv_form"
+                android:textColor="#020002"
+                android:textSize="14sp"
+                tools:text="黑名单" />
+
+            <ImageView
+                android:id="@+id/iv_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:isShowBotton="@{isShowBotton}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/iv_enter"
+                android:textColor="#5a5a5a"
+                android:textSize="12sp"
+                tools:text="2019-02-01" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+
+            android:visibility="@{isShowBotton?View.VISIBLE:View.GONE}">
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/result"
+                android:drawablePadding="7dp"
+                android:gravity="center"
+                android:onClick="@{onClickListener.onClick}"
+                android:text="结果反馈" />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/item_form_delete"
+                android:drawablePadding="6dp"
+                android:gravity="center"
+                android:onClick="@{onClickListener.onClick}"
+                android:text="删除" />
+
+            <TextView
+                android:id="@+id/tv_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:drawableLeft="@drawable/item_form_send"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:onClick="@{onClickListener.onClick}"
+                android:text="发送" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

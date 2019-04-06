@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="216dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/create_form_setting_popup_window_bg"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_only_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="20dp"
+        android:text="每人限填一次"
+        android:textColor="#505050"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/cb_notify_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="16dp"
+        android:text="有新的反馈时通知我"
+        android:textColor="#505050"
+        android:textSize="12sp" />
+
+</LinearLayout>

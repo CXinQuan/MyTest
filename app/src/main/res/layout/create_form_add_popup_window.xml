@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/create_form_add_popup_window_bg"
+    android:paddingTop="26dp">
+
+    <TextView
+        android:id="@+id/tv_text_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/wenbenkuang"
+        android:gravity="center"
+        android:text="文本框" />
+
+    <TextView
+        android:id="@+id/tv_picture_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/wenbenkuang"
+        android:gravity="center"
+        android:text="图片上传" />
+
+    <TextView
+        android:id="@+id/tv_text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/wenbenkuang"
+        android:gravity="center"
+        android:text="文本描述" />
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/wenbenkuang"
+        android:gravity="center"
+        android:text="位置" />
+
+</LinearLayout>

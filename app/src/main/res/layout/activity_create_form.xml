@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="onClickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:onClick="@{onClickListener.onClick}"
+                android:src="@drawable/back_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="创建表单"
+                android:textColor="#020002"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_function"
+            android:layout_marginBottom="64dp"
+            android:gravity="center"
+            android:text="请在下面添加按钮中选择功能模块"
+            android:textColor="#aaaaaa"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/ll_function"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_create_submit"
+            android:layout_marginBottom="26dp">
+
+            <TextView
+                android:id="@+id/tv_add_function"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="86dp"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/form_add_ball"
+                android:gravity="center_horizontal"
+                android:onClick="@{onClickListener.onClick}"
+                android:text="添加"
+                android:textColor="#222c38"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_setting_function"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="86dp"
+                android:layout_marginRight="86dp"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/form_setting_ball"
+                android:gravity="center_horizontal"
+                android:onClick="@{onClickListener.onClick}"
+                android:text="设置"
+                android:textColor="#222c38"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_create_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#fc5e53"
+            android:gravity="center"
+            android:onClick="@{onClickListener.onClick}"
+            android:paddingBottom="17dp"
+            android:paddingTop="18dp"
+            android:text="创建提交"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+</layout>
